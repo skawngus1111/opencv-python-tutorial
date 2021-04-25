@@ -2,7 +2,7 @@ import cv2
 
 # print("opencv-python version = ", cv2.__version__)
 
-img = cv2.imread('./example/Einstein.jpg')
+img = cv2.imread('./example/Lenna.png')
 print(img.shape)
 cv2.imshow("Example Image", img)
 cv2.waitKey(0)
